@@ -24,5 +24,5 @@ socket.on('newMessage', function (message) {
         }, function () {
 
         });
-    });
+    }); 
 });
