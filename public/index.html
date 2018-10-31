@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <h1>Welcome to the chat app</h1>
+
+    <ol id="messages"></ol>
+  
+    <form id="message-form">
+      <input name="message" type="text" placeholder="Message"/>
+      <button>Send</button>
+    </form>
+
+
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/index.js"></script>
-</head>
-<body>
-    <h1>Welcome to Chat App</h1>
-
-    <script>
-      
-    </script>
-
-    <ul id="messages"></ul>
-    <form action="">
-      <input id="m" autocomplete="off" /><button>Send</button>
-    </form>
 </body>
+
 </html>
